@@ -1,7 +1,7 @@
 # Codex CLI image.
 FROM ubuntu:24.04
 
-ARG NODE_MAJOR=20
+ARG NODE_MAJOR=24
 ARG CODEX_NPM_VERSION=0.161.0
 
 RUN apt-get update \
