@@ -1,5 +1,5 @@
 # OpenCode CLI image. OpenCode runs on the base image's Node.js.
-FROM node:20-bookworm-slim
+FROM node:24-bookworm-slim
 
 ARG OPENCODE_VERSION=1.18.35
 
